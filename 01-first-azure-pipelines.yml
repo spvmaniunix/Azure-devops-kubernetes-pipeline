@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world, India is my country, I love my country!
+- script: echo NEW LINE:26-MAR-2021 Hello, world, India is my country, I love my country!
   displayName: 'Run a one-line script'
 
 - script: |
