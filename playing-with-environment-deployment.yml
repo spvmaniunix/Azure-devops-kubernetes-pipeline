@@ -18,7 +18,7 @@ stages:
       runOnce:
         deploy:
           steps:
-          - scrpit: echo deploy to Dev
+          - script: echo deploy to Dev
 - stage: QADeploy
   jobs:
   - deployment: QADeployJob
@@ -27,4 +27,4 @@ stages:
       runOnce:
         deploy:
           steps:
-          - scrpit: echo deploy to QA
+          - script: echo deploy to QA
